@@ -1,0 +1,65 @@
+html file:::::::::::::::::::::::::::::::::::::::::
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">window.alert("hello im internal");
+	</script>
+	<title> Website with table</title>
+</head>
+<body>
+<h1>Hello world</h1>
+<h1 id="demo"></h1>
+<br>
+
+<input type="button" name="ok" value="ok" onclick="Hello()">
+<br>
+<br>
+<input type="button" name="User name" value="User name" onclick="Username()">
+<br>
+<br>
+<input type="button" name="Age" value="Age" onclick="Age()">
+<br>
+<br>
+<input type="button" name="Number" value="Number" onclick="Number()">
+
+<script src="JS/main.js"></script>
+</body>
+</html>
+----------------------------
+Java file::::::::::::::::::::::::::::::::::::::::
+//alert("hello, Im external");
+//console.log	("hi there!");
+
+
+
+//function 3 - number
+function Age(){
+		age = parseInt(prompt("How old are you?"),10)+1;
+		alert(" you will be "+age+" years next year");
+}
+
+
+
+//function 2 - number
+function Number(){
+
+let number = parseInt(prompt("gime me a number"),10);
+let total = number + 10;
+alert(total);
+
+}
+
+
+
+//Function 1 - User name
+function Username(){
+
+let name = prompt("hello, what is your name?");
+document.getElementById("demo").innerHTML = "hello" + name;
+}
+
+
+
+function Hello(){
+		alert("Hello, World");
+}
