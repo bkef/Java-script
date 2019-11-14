@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+	<h1>Function 1</h1>
+	<p>click the buttom to demonstrate the prompt box.</p>
+	<button onclick= "myfunction1()">Try it</button>
+	<p id="insert"></p>
+	<br>
+	<hr>
+
+
+	<h1>Function 2</h1>
+	<ul>
+		<li>bread</li>
+		<li>cookies</li>
+	</ul>
+	<p>Click the buttom to change the text of the first list item (index 0).</p>
+	<button onclick="myfunction2()">Try it</button>
+	<br>
+	<p>Click the buttom to change the text of the second list item (index 1).</p>
+	<button onclick="myfunction22()">Click</button>
+	<br>
+	<hr>
+
+
+	<h1>Function 3</h1>
+	<div id="change">
+		<p class="child"> a p element with class = "child" in a div.</p>
+		<p class="child">another p element with class = "child" in a div.</p>
+	</div>
+	<p>click the buttom to add a background color to all elements with class= "child" inside the div element with id="change".</p>
+	<button onclick="changecolor()">Try it</button>
+	<p><strong>Note:</strong> the getElementsByClassName() method is not supported in internet explorer 8 and earlier versions.</p>
+	<br>
+	<hr>
+	<h1>function 4</h1>
+	<button onclick="insert()">Try it</button>
+	<br>
+	<hr>
+
+
+	<h1>Function 5</h1>
+	<p>Enter your name:</p> <input type="text" id="fname" onblur="toUP()">
+	<p>when you leave the input field, a function is triggered which transforms the input text to upper case,</p>
+	<br>
+	<hr>
+
+
+	<h1>Function 6</h1>
+	<p>select a new car from the list.</p>
+	<select id="myselect" onchange="onChange()">
+	<option value="audi">audi
+	<option value="BMW">BMW
+	<option value="Mercedes">mercedes
+	<option value="Volvo">volvo
+	</select>
+	<p>when you select a new car, a function is triggered which outputs the value of the selected car.</p>
+	<p id="changed"></p>
+	<br>
+	<hr>
+
+	<h1>Function 7</h1>
+	<img src="image/s.jpg" onerror="error()">
+	<br>
+	<hr>
+
+	<h1>Function 8</h1>
+	<input type="text" onfocus="toYellow(this)">
+	<p>when the input field gets focus, a function is triggered which changes the background-color.</p>
+	<br>
+	<hr>
+
+	<h1>Function 9</h1>
+
+	<script src="JS/main.js" type="text/javascript" ></script>
+</body>
+</html>
