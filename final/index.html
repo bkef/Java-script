@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <link rel="manifest" href="favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <title>final exam</title>
+   </head>
+   <body>
+      <h1>Question1</h1>
+      <p>How many hours do you work in a week? </p>
+      <input id="hours" type="number" name="number">
+      <br>
+      <p>What is your hourly rate?</p>
+      <input  id="rate" type="number" name="number">
+      <br><br>
+      <button onclick="GrossIncome()">Gross Income</button>
+      <p id="result1"></p>
+      <br>
+      <hr>
+      <h1>Question2</h1>
+      <br>
+      <input id="Fahrenheit" type="number" name="number">
+      <br>
+      <br>
+      <button onclick="convert()">convert</button>
+      <br>
+      <br>
+      <p id="result2"></p>
+      <br><br>
+      <hr>
+      <h1>Question3</h1>
+      <h3>What color is OS in computer?</h3>
+      <form>
+         <input id="true1" type="radio" name="computer"> Operation system
+         <br>
+         <input type="radio" name="computer"> Open system
+         <br>
+         <input type="radio" name="computer"> Orange system
+         <br>
+         <input type="radio" name="computer"> Non of them
+      </form>
+      <br>
+      <h3>Which one is output in computer?</h3>
+      <form>
+         <input type="radio" name="name"> keyboard
+         <br>
+         <input type="radio" name="name"> scanner
+         <br>
+         <input id="true2" type="radio" name="name"> monitor
+         <br>
+         <input type="radio" name="name"> mouse
+      </form>
+      <br>
+      <button onclick="correct()">Check The Answer</button>
+      <br>
+      <hr>
+      <script src="JS/main.js"></script>
+   </body>
+</html>
